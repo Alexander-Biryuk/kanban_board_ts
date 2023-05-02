@@ -1,0 +1,56 @@
+.container {
+  box-sizing: border-box;
+  margin: 20px 12px;
+  box-sizing: border-box;
+  flex: 1 1;
+  padding: 12px;
+  background: #ebecf0;
+  box-shadow: 2px 2px 10px #1d1d1d;
+  border-radius: 10px;
+  color: #000;
+}
+
+.title {
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.task_list {
+  margin: 0;
+  padding: 0;
+}
+
+.task_item {
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+  margin: 15px 0;
+  padding: 8px;
+  text-align: left;
+  text-overflow: unset;
+  list-style: none;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #808080;
+}
+
+.task_item:active {
+  cursor: grabbing;
+}
+
+.link,
+.link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: #3b3b3b;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex: 0 1;
+  }
+}

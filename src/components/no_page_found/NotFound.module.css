@@ -1,0 +1,12 @@
+.not_found {
+  background-color: #0079bf;
+}
+
+.not_found div {
+  margin: 0 auto;
+  max-width: 1235px;
+  padding-top: 50px;
+  height: calc(100vh - 160px);
+  font-size: 28px;
+  color: white;
+}
