@@ -3,7 +3,7 @@ const READY = 'Ready';
 const IN_PROGRESS = 'In Progress';
 const FINISHED = 'Finished';
 
-const HOME_PAGE = '/kanban_board';
+const HOME_PAGE = '/kanban_board_ts';
 
 export { BACKLOG, READY, IN_PROGRESS, FINISHED, HOME_PAGE };
 
